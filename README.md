@@ -9,4 +9,6 @@ You can check them from here,
 
 ## [AZ-204 Study Notes](./AZ-204/README.md)
 
+## [PL-900 Study Notes](./PL-900/README.md)
+
 Cheers!
