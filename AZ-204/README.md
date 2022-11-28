@@ -1,6 +1,6 @@
 # AZ-204 Study Notes
 
-AZ-900 Exam guide: https://docs.microsoft.com/en-gb/learn/certifications/exams/az-204
+AZ-204 Exam guide: https://docs.microsoft.com/en-gb/learn/certifications/exams/az-204
 
 LEARNING PATH 1: Create serverless applications (AZ-204) 
 
