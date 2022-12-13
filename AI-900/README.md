@@ -12,9 +12,9 @@ LEARNING PATH 3: Explore computer vision (AI-900)
 
 ---
 
-## LEARNING PATH 1: et started with artificial intelligence (AI-900) 
+## LEARNING PATH 1: Get started with artificial intelligence (AI-900) 
 
-### [et started with artificial intelligence](https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/)
+### [Get started with artificial intelligence](https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/)
 
 ### What is AI?
 
@@ -83,6 +83,56 @@ Knowledge mining in Microsoft Azure
 - Azure Cognitive Search
 
 ### Challenges and risks with AI
+
+- Bias results
+- Errors causing harm
+- Data exposure 
+- Not compatible for everyone
+- User's need to trust complexity
+- Liability issues for decisions
+
+### Understand Responsible AI
+
+- Fairness - not biased for anyone
+- Reliability and safety
+- Privacy and Security 
+- Inclusiveness - must empower everyone
+- Transparency - user's should be aware
+- Accountability - governance structure
+
+## LEARNING PATH 2: Explore visual tools for machine learning (AI-900) 
+
+### [Use Automated Machine Learning in Azure Machine Learning](https://learn.microsoft.com/en-us/training/modules/use-automated-machine-learning/)
+
+### Machine Learning
+
+Uses mathematics and statistics to create a model that can predict future unknown values
+
+Supervised machine learning approach
+
+- Regression: predict a continuous value
+- Classification: determine a binary class label
+
+Unsupervised machine learning approach
+
+- Clustering: used to determine labels by grouping similar information into label groups
+
+### Azure Machine Learning studio
+
+Train and deploy effective with a lot of simplicity and automation
+
+You must create Workspace in your Azure subscription first
+
+Computer Resources you can create,
+
+- Computer Instances
+- Computer Clusters
+- Inference Clusters
+- Attached Compute
+
+Azure Automated Machine Learning
+
+- Automated machine learning capability that automatically tries multiple pre-processing techniques and model-training algorithms in parallel
 
 
 
