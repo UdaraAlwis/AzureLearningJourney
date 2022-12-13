@@ -11,6 +11,6 @@ You can check them from here,
 
 ## [PL-900 Study Notes](./PL-900/README.md)
 
-## [AI-900 Study Notes](./PL-900/README.md)
+## [AI-900 Study Notes](./AI-900/README.md)
 
 Cheers!
