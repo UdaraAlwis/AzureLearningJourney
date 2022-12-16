@@ -134,6 +134,109 @@ Azure Automated Machine Learning
 
 - Automated machine learning capability that automatically tries multiple pre-processing techniques and model-training algorithms in parallel
 
+...
+
+WIP
+
+## LEARNING PATH 3: Explore computer vision (AI-900) 
+
+### [Analyze images with the Computer Vision service](https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/)
+
+Azure resources for Computer Vision
+
+- Computer Vision
+- Cognitive Services (includes Computer Vision and other capabilities ex: Text & Language)
+
+Computer Vision capabilities
+
+- Describe image
+- Tagging Visual features
+- Detecting Objects
+- Detecting Brands
+- Detecting Faces
+- Categorizing an image
+- Detect domain specific content
+- OCR
+- Generate thumbnails, moderate content, etc
+
+### [Classify images with the Custom Vision service](https://learn.microsoft.com/en-us/training/modules/classify-images-custom-vision/)
+
+Uses of image classification
+
+- Product identification 
+- Disaster investigation
+- Medical diagnosis
+
+Classification - predict which category or class something belogs to.
+Image classification is a machine learning technique.
+
+Convolutional neural networks (CNNs) - to uncover patterns in the pixels that correspond to particular classes
+
+Azure resources for Custom Vision
+
+- Custom Vision - dedicated resource can be training, a prediction, or both
+- Cognitive Services - eneral cognitive services resource, includes Custom Vision with many other
+
+It is possble to mix and match, ex: use a dedicated Custom Vision resource for training, but deploy your model to a Cognitive Services resource for prediction. This can only be done in same region! 
+
+Model evaluation
+
+- Precision - the model predicted 10 images are oranges, but only 8 were actually oranges, then the precision is 0.8 (80%)
+- Recall - the model prediction 7 images are apples, but there are 10 images of apples, then the recall is 0.7
+- AP - Average prediction combination of previous two
+
+### [Detect objects in images with the Custom Vision service](https://learn.microsoft.com/en-us/training/modules/detect-objects-images-custom-vision/)
+
+Uses of object detection
+
+- Detecting tumors
+- Driver assistance
+- Checking for building safety
+
+Use Custom Vision or Congnitive Services resource, but better with a mix
+
+To train an object detection model, you need to create a Custom Vision project based on your training resource
+
+Steps:
+Image tagging - Custom Vision portal provides a graphical interface, for training data set up
+Model training and evaluation
+Using the model for prediction
+
+### [Detect and analyze faces with the Face service](https://learn.microsoft.com/en-us/training/modules/detect-analyze-faces/)
+
+Face detection
+
+Facial analysis - information on facial features
+Facial recognition - indentify a paticular face
+
+Microsoft Azure provides multiple cognitive services,
+
+- Computer Vision - basic face detection
+- Video Indexer - Detect faces in a video
+- Face - Blur, Exposure, Glasses, Head Pose, Noise, Occlusion
+
+Following are restricted and customers should fill intake form,
+
+- The ability to compare faces for similarity
+- The ability to identify named individuals in an image
+
+### [Read text with the Computer Vision service](https://learn.microsoft.com/en-us/training/modules/read-text-computer-vision/)
+
+Use the Computer Vision service to read text
+
+The Read API - scanned large documents
+- This is an asynchronous service
+- Structure returned - Pages, Lines, Words
+
+### [Analyze receipts with the Form Recognizer service](https://learn.microsoft.com/en-us/training/modules/analyze-receipts-form-recognizer/)
+
+Process receipt or invoices data
+
+Azure Form Recognizer
+Two options,
+- Pre built receipt model
+- Custom model - trained with your data
+
 
 
 ...
