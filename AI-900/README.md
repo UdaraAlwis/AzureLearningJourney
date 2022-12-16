@@ -237,6 +237,25 @@ Two options,
 - Pre built receipt model
 - Custom model - trained with your data
 
+## LEARNING PATH 3: Explore natural language processing (AI-900) 
+
+### [Analyze text with the Language service](https://learn.microsoft.com/en-us/training/modules/analyze-text-with-text-analytics-service/)
+
+Evaluate different aspects of a document or phrase, in order to gain insights into the content of that text
+
+In Microsoft Azure, the Language cognitive service 
+
+- Determine language of a document
+- Perform sentiment analysis
+- Extract key phrases
+- Identify and categorize entities
+
+### [Recognize and synthesize speech](https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/)
+
+Two main capabilities:
+- Speech recognition - acoustic model -> language model -> to text
+- Speech synthesis - tokenizes text -> prosodic units (such as phrases, clauses, or sentences) 
+
 
 
 ...
