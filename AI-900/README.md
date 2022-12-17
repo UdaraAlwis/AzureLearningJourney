@@ -256,7 +256,15 @@ Two main capabilities:
 - Speech recognition - acoustic model -> language model -> to text
 - Speech synthesis - tokenizes text -> prosodic units (such as phrases, clauses, or sentences) 
 
+Azure resources for the Speech service
+- Speech resource - only for speech service
+- Cognitive Services resource - including other services as well
 
+Available APIs,
+- Speech-To-Text-API - Real time transcription, batch transcription features
+- Text-To-Speech-API - Speech synthesis voices features
+
+ 
 
 ...
 
