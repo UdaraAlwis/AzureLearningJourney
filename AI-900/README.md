@@ -265,7 +265,31 @@ Available APIs,
 - Speech-To-Text-API - Real time transcription, batch transcription features
 - Text-To-Speech-API - Speech synthesis voices features
 
- 
+### [Translate Text and Speech](https://learn.microsoft.com/en-us/training/modules/translate-text-with-translation-service/) 
+
+Two types of translations
+- Literal translation - word to word translation 
+- Semantic translation - translation with context
+
+Azure Cognitive Services provides,
+- Translator Service - Text to Text translation
+- Speech Service - Speech to Text / Speech to Speech translation
+
+The service uses a Neural Machine Translation (NMT) model for translation, which analyzes the semantic context of the text
+
+Use ISO 639-1 language codes, such as 'en' for English
+Use ISO 3166-1 cultural code - for example, en-US for US English
+
+Optional configuration,
+- Profanity filtering
+- Selective translation (mark some parts not to translate)
+
+The Speech service APIs,
+- Speech-to-text - used to transcribe speech from an audio source to text format.
+- Text-to-speech - used to generate spoken audio from a text source.
+- Speech Translation - used to translate speech in one language to text or speech in another.
+
+You can specify a single "from" language and multiple "to" languages.
 
 ...
 
@@ -273,6 +297,6 @@ WIP
 
 ---
 
-That's all the notes, good luck with the AZ-204 exam! ^_^ 
+That's all the notes, good luck with the AI-900 exam! ^_^ 
 
 -Udara Alwis
