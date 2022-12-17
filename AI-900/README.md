@@ -198,16 +198,16 @@ Use Custom Vision or Congnitive Services resource, but better with a mix
 To train an object detection model, you need to create a Custom Vision project based on your training resource
 
 Steps:
-Image tagging - Custom Vision portal provides a graphical interface, for training data set up
-Model training and evaluation
-Using the model for prediction
+- Image tagging - Custom Vision portal provides a graphical interface, for training data set up
+- Model training and evaluation
+- Using the model for prediction
 
 ### [Detect and analyze faces with the Face service](https://learn.microsoft.com/en-us/training/modules/detect-analyze-faces/)
 
 Face detection
 
-Facial analysis - information on facial features
-Facial recognition - indentify a paticular face
+- Facial analysis - information on facial features
+- Facial recognition - indentify a paticular face
 
 Microsoft Azure provides multiple cognitive services,
 
@@ -233,6 +233,7 @@ The Read API - scanned large documents
 Process receipt or invoices data
 
 Azure Form Recognizer
+
 Two options,
 - Pre built receipt model
 - Custom model - trained with your data
