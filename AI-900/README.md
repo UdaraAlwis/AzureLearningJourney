@@ -291,6 +291,55 @@ The Speech service APIs,
 
 You can specify a single "from" language and multiple "to" languages.
 
+
+### [Create a language model with Conversational Language Understanding](https://learn.microsoft.com/en-us/training/modules/create-language-model-with-language-understanding/)
+
+Microsoft Azure, conversational language understanding is supported through the Language Service
+
+- Utterances - something a user might say
+- Entities - item to which an utternce refers
+- Intents - represents a purpose or goal
+
+The 'None' intent is used to handle fallback/default responses, its mandatory, cannot remove or edit
+
+Authoring the model - First you must define entities, intents, and utterances with which to train the language model
+
+Types of Entities,
+- Machine Learned
+- List
+- Reg-ex
+- Pattern.any
+
+Connect clients using prediction resource and authentication key
+
+### [Build a bot with the Language Service and Azure Bot Service](https://learn.microsoft.com/en-us/training/modules/build-faq-chatbot-qna-maker-azure-bot-service/)
+
+Microsoft Azure provides two core services for creating bot solutions,
+
+- Language Service
+- Azure Bot Service 
+
+First provision a Language service resource in Azure to create a 'Knowledge base'
+Use the Language Studio's custom question answering feature to create, train, publish, and manage knowledge bases
+
+Question-and-answer pairs are created by,
+
+- Generated from an existing FAQ page
+- Entered and edited manually
+- Mix of both above
+
+The client applications require:
+
+- The knowledge base ID
+- The knowledge base endpoint
+- The knowledge base authorization key
+
+Create a Bot with Azure Bot Service - easier to use automatic bot creation feature
+
+Connect multiple channels to the same bot for responding to users
+
+
+
 ...
 
 WIP
