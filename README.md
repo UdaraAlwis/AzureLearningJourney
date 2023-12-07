@@ -13,4 +13,6 @@ You can check them from here,
 
 ## [AI-900 Study Notes](./AI-900/README.md)
 
+## [DP-900 Study Notes](./DP-900/README.md)
+
 Cheers!
