@@ -105,10 +105,16 @@ Data services,
 
 - Azure SQL - SQL Database, SQL Managed Instance, SQL VM
 - Azure Database for open source databases - MySQL, MariaDB, PostgresSQL
-- Azure Cosmos DB - global scale no-sql db. json, key-value pairs, column-families and graphs
-- Azure Storage - blob storage, file shares and tables
-
-
+- Azure Cosmos DB - Global scale no-sql db. json, key-value pairs, column-families and graphs
+- Azure Storage - Blob storage, file shares and tables
+- Azure Data factory - Data pipelines to transfer and transform data,  used by data engineers to build extract, transform, and load (ETL) solution
+- Azure Synapse Analytics - unified PaaS for Pipelines, SQL, Spark, KQL querying
+- Azure Databricks - combines Apache Spark with SQL database semantics
+- Azure HDInsight - Azure hosted clusters for open source big data processing, Apache Spark, Hadoop, HBase, Kafka
+- Azure Stream Analytics - real time processing of data streams for analytics
+- Azure Data Explorer - high performance querying of log and telemetry data, with Azure Synaps analytics (IOT)
+- Microsoft Pureview - enterprise wide data governance and discoverability
+- Microsoft Fabric - SaaS analytics platform for lakehouse
 
 ## LEARNING PATH 2: Explore relational data in Azure (DP-900) 
 
