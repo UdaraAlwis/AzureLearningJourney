@@ -120,9 +120,60 @@ Data services,
 
 ### [Explore fundamental relational data concepts](https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/)
 
+### Understand relational data
+
+Strucutred data with relationships
+
+Diferent data types for columns
+
+Most databases supports ANSI standard data types
+
+### Understand normalization
+
+Minimizes data duplication
+
+- Each entity -> own table
+- Atrributes -> into columns
+- Row -> Unique Primary Key
+- Relationships -> with Foreign keys
 
 
+### Explore SQL
 
+Structured Query Language: Microsoft SQL Server, MySQL, PostgreSQL, MariaDB, and Oracle
+
+SELECT, INSERT, UPDATE, DELETE, CREATE, and DROP
+
+Additional proprietary extensions,
+
+- Transact-SQL by SQL Server database engine
+- pgSQL used by PostgreSQL
+- PL/SQL used by Oracle
+
+### SQL statement types
+
+- DDL - Data Definition Language (CREATE, ALTER, DROP, RENAME) - manage objects
+- DCL - Data Control Language (GRANT, DENY, REVOKE) - manage access to objects
+- DML - Data Manipulation Language (SELECT, INSERT, UPDATE, DELETE) - manipulate data 
+
+### Describe database objects
+
+View
+
+Virtual table based on a select query (CREATE VIEW Deliveries)
+
+Store Proceedure
+
+SQL statements that runs on command with parameters (CREATE PROCEDURE RenameProduct)
+
+Index
+
+Specifies a column in a table and create a copy of it in a sorted order with pointers to the rows (CREATE INDEX idx_ProductName)
+
+- Helps quickly finds in massive amount of data
+- Creates a tree based structure for the quert optimizer to use
+- Consumes storage space
+- Need to maintain the index according to changes you make to the data
 
 
 ## LEARNING PATH 3: Explore non-relational data in Azure (DP-900) 
