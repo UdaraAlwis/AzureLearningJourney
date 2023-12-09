@@ -158,15 +158,15 @@ Additional proprietary extensions,
 
 ### Describe database objects
 
-View
+- View
 
 Virtual table based on a select query (CREATE VIEW Deliveries)
 
-Store Proceedure
+- Stored Proceedure
 
 SQL statements that runs on command with parameters (CREATE PROCEDURE RenameProduct)
 
-Index
+- Index
 
 Specifies a column in a table and create a copy of it in a sorted order with pointers to the rows (CREATE INDEX idx_ProductName)
 
@@ -175,18 +175,113 @@ Specifies a column in a table and create a copy of it in a sorted order with poi
 - Consumes storage space
 - Need to maintain the index according to changes you make to the data
 
+### Azure SQL Services and Capabilities
+
+- SQL Server on Azure VM - life and shift features
+- Azure SQL Managed instance (PaaS) - automated updates, back and maintenance (mutiple dbs)
+- Azure SQL database (PaaS) - core capabilities of on-prem db (Single DB or Elastic Pool)
+- Azure Edge - IOT workloads, for streaming time-series data
+
+### Azure Services for Open-Source
+
+- Azure Database for MySQL - based on community edition
+- Azure Database for MariaDB -  based on community edition
+- Azure Database for PosgreSQL - execute stored proceedures in db itself, pgsql, comes with PostgreSQL Flexible Server - more control and configurations
 
 ## LEARNING PATH 3: Explore non-relational data in Azure (DP-900) 
 
 ### [Explore Azure Storage for non-relational data](https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/)
 
+### Azure Blob Storage
+
+Store massive amounts of unstructured binary data, provides an API as well.
+
+Azure Storage account provides blob containers to store the files.
+
+Types of Blobs,
+
+- Block blobs - optimized for infrequently changed files
+- Page blobs - optimized for random read/write
+- Append blobs - can only append data in small chunks
+
+Access Tiers, (can migrate between as well)
+
+- Hot - for frequently accessed data
+- Cool - for infrequently accessed data (cheaper)
+- Archive - used for historical data, takes long time to dehydrate (cheaper)
 
 
+### Azure DataLake Storage Gen2
 
+Intergrate into Azure Storage and can be used by Azure DataLake Store systems
 
+Used with Hadoop in Azure HDInsight, Azure Databricks, Azure Synapse analytics
+
+Enable Hirarchichal Namespace option in Azure Storage account
+
+### Azure Files
+
+Cloud based network shares
+
+Used in a Azure Storage account
+
+100 TB in a single account and 1 TB in a single file
+
+- Standard tier - with hard disk storage
+- Premium tier - with sold state storage
+
+Supported Network file protocols,
+- Server Message Block (SMB) - compatible with mutiple operating systems
+- Network File System (NFS) - for Linux and MacOs, uses a Premium tier
+
+### Azure Tables
+
+Used for storing semi-structured key-value data
+
+Denormalized data
+
+Uses partitioning for grouping similar data for faster access, contains patition key and row key
+
+### [Explore fundamentals of Azure Cosmos DB](https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/)
+
+## Azure Cosmos DB
+
+Fully managed and serverless
+
+Fast read write performance and auto scaling 
+
+For handling massive amounts of data
+
+Provides an API to work with different data stores
+
+Uses, 
+
+- IoT and telematics. 
+- Retail and Marketing
+- Gaming
+- Web and Mobile applications
+
+APIs,
+
+- Cosmos DB for NoSQL - uses JSON format, works with SQL syntax
+- Cosmos DB for MongoDB - using Binary JSON and MQL query language
+- Cosmos DB for PostgreSQL - native and scales upto multiple nodes
+- Cosmos DB for Table - store data in key-value tables
+- Cosmos DB for Apache Cassandra - uses column-family storage structure
+- Cosmos DB for Apache Gremlin - uses graph data structure, nodes and edges
+- 
 
 ## LEARNING PATH 4: Explore data analytics in Azure (DP-900) 
 
 ### [Explore data analytics in Azure](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-data-warehouse-analytics/)
 
+### [Explore fundamentals of large-scale analytics](https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/)
+
+### Data warehousing architecture
+
+Elements,
+
+- Data ingestion and processing
+    - Extract, Transform and Load (ETL)
+    - Extract, Load and Transform (ELT)
 
