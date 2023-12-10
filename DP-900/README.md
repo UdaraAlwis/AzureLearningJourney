@@ -50,7 +50,8 @@ Optimized file formats
 ### Explore databases
 
 Relational databases - store and query structured data
-Non-relational databases - 
+Non-relational databases -
+
     - Key-value databases
     - Document databases
     - Column-family databases
@@ -76,10 +77,10 @@ read only snapshot data at a given time or a series of snapshots
 
 - Data Extracted, Transformed and Loaded (ETL) into Data lake
 - Data loaded into a schema of tables, (two ways)
-    > Spark based data lakehouse with tabular abstraction
-    > Data warehouse with fully relational SQL engine
+    - Spark based data lakehouse with tabular abstraction
+    - Data warehouse with fully relational SQL engine
 - Data aggregated and loaded into an online analytical processing (OLAP)
-- Data in data lake, data warehouse and and analytical model can be queried
+- Data in data lake, data warehouse and analytical model can be queried
 
 Data lakes - large scale data analytics, file based data processing
 
@@ -91,9 +92,9 @@ OLAP model - storage optimized for analyical workloads, drill up and down
 
 Different types of users,
 
-Data scientist - works with data files in data lake, explore and model data
-Data analyst - query data in data warehouse
-Business user - consume pre-aggregated data in an OLAP, dashboard or report
+- Data Scientist - works with data files in data lake, explore and model data
+- Data Analyst - query data in data warehouse
+- Business User - consume pre-aggregated data in an OLAP, dashboard or report
 
 ### [Explore data roles and services](https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/)
 
@@ -158,26 +159,19 @@ Additional proprietary extensions,
 
 ### Describe database objects
 
-- View
+- 1. View - Virtual table based on a select query (CREATE VIEW Deliveries)
 
-Virtual table based on a select query (CREATE VIEW Deliveries)
+- 2. Stored Proceedure - SQL statements that runs on command with parameters (CREATE PROCEDURE RenameProduct)
 
-- Stored Proceedure
-
-SQL statements that runs on command with parameters (CREATE PROCEDURE RenameProduct)
-
-- Index
-
-Specifies a column in a table and create a copy of it in a sorted order with pointers to the rows (CREATE INDEX idx_ProductName)
-
-- Helps quickly finds in massive amount of data
-- Creates a tree based structure for the quert optimizer to use
+- 3. Index - Specifies a column in a table and create a copy of it in a sorted order with pointers to the rows (CREATE INDEX idx_ProductName)
+- Helps quickly find in massive amount of data
+- Creates a tree based structure for the query optimizer to use
 - Consumes storage space
 - Need to maintain the index according to changes you make to the data
 
 ### Azure SQL Services and Capabilities
 
-- SQL Server on Azure VM - life and shift features
+- SQL Server on Azure VM - lift and shift features
 - Azure SQL Managed instance (PaaS) - automated updates, back and maintenance (mutiple dbs)
 - Azure SQL database (PaaS) - core capabilities of on-prem db (Single DB or Elastic Pool)
 - Azure Edge - IOT workloads, for streaming time-series data
@@ -217,7 +211,7 @@ Intergrate into Azure Storage and can be used by Azure DataLake Store systems
 
 Used with Hadoop in Azure HDInsight, Azure Databricks, Azure Synapse analytics
 
-Enable Hirarchichal Namespace option in Azure Storage account
+To activate, Enable Hierarchichal Namespace option in Azure Storage account 
 
 ### Azure Files
 
@@ -236,9 +230,7 @@ Supported Network file protocols,
 
 ### Azure Tables
 
-Used for storing semi-structured key-value data
-
-Denormalized data
+Used for storing semi-structured key-value data (Denormalized data)
 
 Uses partitioning for grouping similar data for faster access, contains patition key and row key
 
@@ -269,7 +261,6 @@ APIs,
 - Cosmos DB for Table - store data in key-value tables
 - Cosmos DB for Apache Cassandra - uses column-family storage structure
 - Cosmos DB for Apache Gremlin - uses graph data structure, nodes and edges
-- 
 
 ## LEARNING PATH 4: Explore data analytics in Azure (DP-900) 
 
@@ -286,7 +277,7 @@ Elements,
     - Extract, Load and Transform (ELT)
 
 - Analytical data store
-    - data warehourse
+    - data warehouse
     - data lakes
 
 - Analytical data model
@@ -310,7 +301,7 @@ Pipelines that orchestrates ETL processes
 - Data warehouses - data stored in a schema optimized for analytics (structured data)
 - Data lakehouses - data is stored in distributed file system optimized for fast access (semi-structured data)
 
-### Pass Solutions
+### PaaS Solutions
 
 Azure Synapse Analytics - high performance relationional data warehousing, easy User interface
 
@@ -320,7 +311,7 @@ Azure HDInsight - for open-source data analytics clusters, not very user friendl
 
 ### Microsoft Fabric
 
-SaaS with a single open open format in OneLake
+SaaS with a single open format in OneLake
 
 Single integrated environment
 
@@ -366,12 +357,12 @@ Sinks (output data) for Steam processing
 
 - Azure Event Hubs
 - Azure Data Lake Store Gen 2 / Azure Blog Storage
-- Azure SQL Database, Synapse ANalytics, Databricks
+- Azure SQL Database, Synapse Analytics, Databricks
 - Microsoft Power BI
 
 ### Azure Stream Analytics
 
-Service for complex even processing and analysis of streaming data
+Service for complex event processing and analysis of streaming data
 
 Stream analytics query run perpetually as data arrives
 
@@ -404,7 +395,7 @@ Use an eventstream to capture real-time event data
 
 ### [Describe Power BI tools and workflow](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/2-power-bi)
 
-Suite if tools and services for building interactive data visualizations
+Suite of tools and services for building interactive data visualizations
 
 Import data into Power BI Desktop -> Power BI Service -> View the reports in Web browser or Phone App
 
@@ -416,8 +407,8 @@ Import data into Power BI Desktop -> Power BI Service -> View the reports in Web
 
 Model forms a multi-dimentional structure (cube)
 
-Star schema - fact table is related to one or more dimension tables
-Snowflake schema - dimension tables are related to additional tables 
+- Star schema - fact table is related to one or more dimension tables
+- Snowflake schema - dimension tables are related to additional tables 
 
 Attribute hierarchies - quickly drill-up and down for aggregated values
 
