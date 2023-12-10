@@ -50,8 +50,8 @@ Optimized file formats
 ### Explore databases
 
 Relational databases - store and query structured data
-Non-relational databases -
 
+Non-relational databases
     - Key-value databases
     - Document databases
     - Column-family databases
@@ -72,8 +72,7 @@ ACID semantics
 
 ### Analytical data processing
 
-read only snapshot data at a given time or a series of snapshots
-
+Read only snapshot data at a given time or a series of snapshots
 
 - Data Extracted, Transformed and Loaded (ETL) into Data lake
 - Data loaded into a schema of tables, (two ways)
