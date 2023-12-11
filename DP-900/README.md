@@ -49,14 +49,12 @@ Optimized file formats
 
 ### Explore databases
 
-Relational databases - store and query structured data
-
-Non-relational databases
+- Relational databases - store and query structured data
+- Non-relational databases
     - Key-value databases
     - Document databases
     - Column-family databases
     - Graph databases
-
 
 ### Transactional data processing
 
